@@ -2,38 +2,39 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0D1117"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#0B3B52"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#123047"/>
     </linearGradient>
-    <linearGradient id="accent" x1="70" y1="250" x2="1080" y2="80" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="70" y1="250" x2="1120" y2="70" gradientUnits="userSpaceOnUse">
       <stop stop-color="#58A6FF"/>
       <stop offset="1" stop-color="#2DD4BF"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <circle cx="1040" cy="160" r="95" stroke="#58A6FF" stroke-width="3" opacity="0.28"/>
-  <circle cx="1040" cy="160" r="60" stroke="#2DD4BF" stroke-width="3" opacity="0.55"/>
-  <circle cx="1040" cy="160" r="24" fill="#0D1117" stroke="#58A6FF" stroke-width="4"/>
-  <g fill="#58A6FF" opacity="0.8">
-    <circle cx="1040" cy="86" r="8"/><circle cx="1092" cy="108" r="8"/>
-    <circle cx="1114" cy="160" r="8"/><circle cx="1092" cy="212" r="8"/>
-    <circle cx="1040" cy="234" r="8"/><circle cx="988" cy="212" r="8"/>
-    <circle cx="966" cy="160" r="8"/><circle cx="988" cy="108" r="8"/>
-  </g>
 
-  <path d="M650 224 L690 224 L710 204 L735 248 L760 160 L790 224 L820 224 L840 198 L865 224 L900 224"
-        stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-  <path d="M70 264 H1130" stroke="#30363D" stroke-width="1"/>
+  <!-- abstract engineering system -->
+  <circle cx="1035" cy="155" r="83" stroke="#58A6FF" stroke-width="2.5" opacity="0.30"/>
+  <circle cx="1035" cy="155" r="48" stroke="#2DD4BF" stroke-width="3" opacity="0.65"/>
+  <circle cx="1035" cy="155" r="17" fill="#0D1117" stroke="#58A6FF" stroke-width="3"/>
+  <path d="M930 95 L970 118 L1000 92 M1100 105 L1075 125 M950 220 L985 193 M1090 213 L1067 190"
+        stroke="#58A6FF" stroke-width="2.5" opacity="0.55"/>
+  <g fill="#2DD4BF">
+    <circle cx="930" cy="95" r="5"/><circle cx="970" cy="118" r="5"/><circle cx="1000" cy="92" r="5"/>
+    <circle cx="1100" cy="105" r="5"/><circle cx="1075" cy="125" r="5"/>
+    <circle cx="950" cy="220" r="5"/><circle cx="985" cy="193" r="5"/>
+    <circle cx="1090" cy="213" r="5"/><circle cx="1067" cy="190" r="5"/>
+  </g>
+  <path d="M650 222 L685 222 L705 205 L727 241 L750 170 L777 222 L805 222 L825 202 L848 222 L885 222"
+        stroke="url(#accent)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
 
   <text x="70" y="104" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">Dakshesh Das</text>
   <text x="70" y="154" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="24">Mechanical Engineering × Artificial Intelligence</text>
-  <text x="70" y="201" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="19">Predictive Maintenance  •  Vibration Analysis  •  Intelligent Mechanical Systems</text>
-
+  <text x="70" y="201" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="19">Research  •  Engineering Projects  •  Simulation  •  Machine Learning</text>
   <rect x="70" y="230" width="430" height="4" rx="2" fill="url(#accent)"/>
-  <text x="70" y="294" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">ENGINEERING SYSTEMS THAT CAN SENSE, LEARN & RESPOND</text>
+  <text x="70" y="294" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">BUILD • TEST • ANALYZE • IMPROVE</text>
 </svg>
