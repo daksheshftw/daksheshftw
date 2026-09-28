@@ -1,0 +1,39 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B3B52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="70" y1="250" x2="1080" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1040" cy="160" r="95" stroke="#58A6FF" stroke-width="3" opacity="0.28"/>
+  <circle cx="1040" cy="160" r="60" stroke="#2DD4BF" stroke-width="3" opacity="0.55"/>
+  <circle cx="1040" cy="160" r="24" fill="#0D1117" stroke="#58A6FF" stroke-width="4"/>
+  <g fill="#58A6FF" opacity="0.8">
+    <circle cx="1040" cy="86" r="8"/><circle cx="1092" cy="108" r="8"/>
+    <circle cx="1114" cy="160" r="8"/><circle cx="1092" cy="212" r="8"/>
+    <circle cx="1040" cy="234" r="8"/><circle cx="988" cy="212" r="8"/>
+    <circle cx="966" cy="160" r="8"/><circle cx="988" cy="108" r="8"/>
+  </g>
+
+  <path d="M650 224 L690 224 L710 204 L735 248 L760 160 L790 224 L820 224 L840 198 L865 224 L900 224"
+        stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M70 264 H1130" stroke="#30363D" stroke-width="1"/>
+
+  <text x="70" y="104" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">Dakshesh Das</text>
+  <text x="70" y="154" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="24">Mechanical Engineering × Artificial Intelligence</text>
+  <text x="70" y="201" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="19">Predictive Maintenance  •  Vibration Analysis  •  Intelligent Mechanical Systems</text>
+
+  <rect x="70" y="230" width="430" height="4" rx="2" fill="url(#accent)"/>
+  <text x="70" y="294" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">ENGINEERING SYSTEMS THAT CAN SENSE, LEARN & RESPOND</text>
+</svg>
